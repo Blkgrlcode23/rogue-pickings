@@ -22,6 +22,7 @@ body {
 	align-items: center;
 	flex-flow: row wrap;
 	align-content: flex-start;
+	width: 90%;
 }
 
 h1,
@@ -55,6 +56,7 @@ header {
 	align-items: center;
 	flex-flow: row wrap;
 	align-content: flex-start;
+	text-align: center;
 }
 
 header h1 {
@@ -67,20 +69,24 @@ header h1 span {
 
 header nav {
 	padding: 46px 0;
+	list-style: none;
 }
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 0 10px;
+	list-style: none;
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	list-style: none;
 }
 
 /*The widths are in a percentage!*/
